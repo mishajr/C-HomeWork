@@ -1,0 +1,3 @@
+﻿  HomeWork.cpp
+HomeWork2.obj : error LNK2005: main already defined in HomeWork.obj
+C:\Users\РОН\source\repos\home work\x64\Debug\home work.exe : fatal error LNK1169: one or more multiply defined symbols found
