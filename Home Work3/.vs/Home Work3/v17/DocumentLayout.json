@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0420\u041E\u041D\\source\\repos\\mishajr\\C-HomeWork\\Home Work3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E196BE-7D74-4C56-8C1A-7147E3CA8B03}|Home Work3.vcxproj|C:\\Users\\\u0420\u041E\u041D\\source\\repos\\mishajr\\C-HomeWork\\Home Work3\\Home Work3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F8E196BE-7D74-4C56-8C1A-7147E3CA8B03}|Home Work3.vcxproj|solutionrelative:Home Work3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home Work3.cpp",
+              "DocumentMoniker": "C:\\Users\\\u0420\u041E\u041D\\source\\repos\\mishajr\\C-HomeWork\\Home Work3\\Home Work3.cpp",
+              "RelativeDocumentMoniker": "Home Work3.cpp",
+              "ToolTip": "C:\\Users\\\u0420\u041E\u041D\\source\\repos\\mishajr\\C-HomeWork\\Home Work3\\Home Work3.cpp",
+              "RelativeToolTip": "Home Work3.cpp",
+              "ViewState": "AQIAADcAAAAAAAAAAAAgwEgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-29T18:23:02.451Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
