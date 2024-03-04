@@ -95,8 +95,116 @@ int main() {
 
 
     //Завдання 5
-        //ya ne zrozumiv yak tse zrobit
+
+
+    //int day1, month1, year1;
+    //int day2, month2, year2;
+
+    //cout << "Enter first date (day month year): ";
+    //cin >> day1 >> month1 >> year1;
+    //cout << "Enter second date (day month year): ";
+    //cin >> day2 >> month2 >> year2;
+
+    //int days = 0;
+
+
+    //for (int year = year1; year < year2; year++) {
+    //    days += (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)) ? 366 : 365;
+    //}
+
+
+    //for (int month = month1; month <= 12; month++) {
+    //    int daysInMonth = 0;
+    //    if (month == 2) {
+    //        daysInMonth = (year1 % 4 == 0 && (year1 % 100 != 0 || year1 % 400 == 0)) ? 29 : 28;
+    //    }
+    //    else if (month == 4 || month == 6 || month == 9 || month == 11) {
+    //        daysInMonth = 30;
+    //    }
+    //    else {
+    //        daysInMonth = 31;
+    //    }
+    //    days += daysInMonth;
+    //    if (month == month2 && year1 == year2) break;
+    //}
+
+    //days -= day1;
+
+
+    //int daysInLastMonth = (month2 == 2) ? ((year2 % 4 == 0 && (year2 % 100 != 0 || year2 % 400 == 0)) ? 29 : 28) : ((month2 == 4 || month2 == 6 || month2 == 9 || month2 == 11) ? 30 : 31);
+    //days -= daysInLastMonth - day2 + 1;
+
+    //cout << "Number of days between the two dates: " << days << endl;
+ 
 
     //Завдання 6
-        //tut tej same 
-}
+//    const int BASE_SALARY = 200;
+//    const double RATE_1 = 0.03;
+//    const double RATE_2 = 0.05;
+//    const double RATE_3 = 0.08;
+//    const int BONUS = 200;
+//    int sales1, sales2, sales3;
+//
+//    cout << "Enter sales for manager 1: ";
+//    cin >> sales1;
+//    cout << "Enter sales for manager 2: ";
+//    cin >> sales2;
+//    cout << "Enter sales for manager 3: ";
+//    cin >> sales3;
+//
+//    double salary1, salary2, salary3;
+//    if (sales1 <= 500)
+//        salary1 = BASE_SALARY + sales1 * RATE_1;
+//    else if (sales1 <= 1000)
+//        salary1 = BASE_SALARY + sales1 * RATE_2;
+//    else
+//        salary1 = BASE_SALARY + sales1 * RATE_3;
+//
+//    if (sales2 <= 500)
+//        salary2 = BASE_SALARY + sales2 * RATE_1;
+//    else if (sales2 <= 1000)
+//        salary2 = BASE_SALARY + sales2 * RATE_2;
+//    else
+//        salary2 = BASE_SALARY + sales2 * RATE_3;
+//
+//    if (sales3 <= 500)
+//        salary3 = BASE_SALARY + sales3 * RATE_1;
+//    else if (sales3 <= 1000)
+//        salary3 = BASE_SALARY + sales3 * RATE_2;
+//    else
+//        salary3 = BASE_SALARY + sales3 * RATE_3;
+//
+//
+//    double bestManagerSalary;
+//    if (sales1 >= sales2 && sales1 >= sales3) {
+//        if (sales1 <= 500)
+//            bestManagerSalary = BASE_SALARY + sales1 * RATE_1 + BONUS;
+//        else if (sales1 <= 1000)
+//            bestManagerSalary = BASE_SALARY + sales1 * RATE_2 + BONUS;
+//        else
+//            bestManagerSalary = BASE_SALARY + sales1 * RATE_3 + BONUS;
+//    }
+//    else if (sales2 >= sales1 && sales2 >= sales3) {
+//        if (sales2 <= 500)
+//            bestManagerSalary = BASE_SALARY + sales2 * RATE_1 + BONUS;
+//        else if (sales2 <= 1000)
+//            bestManagerSalary = BASE_SALARY + sales2 * RATE_2 + BONUS;
+//        else
+//            bestManagerSalary = BASE_SALARY + sales2 * RATE_3 + BONUS;
+//    }
+//    else {
+//        if (sales3 <= 500)
+//            bestManagerSalary = BASE_SALARY + sales3 * RATE_1 + BONUS;
+//        else if (sales3 <= 1000)
+//            bestManagerSalary = BASE_SALARY + sales3 * RATE_2 + BONUS;
+//        else
+//            bestManagerSalary = BASE_SALARY + sales3 * RATE_3 + BONUS;
+//    }
+//
+//
+//    cout << "Manager 1's salary: $" << salary1 << endl;
+//    cout << "Manager 2's salary: $" << salary2 << endl;
+//    cout << "Manager 3's salary: $" << salary3 << endl;
+//    cout << "The best manager's salary with bonus: $" << bestManagerSalary << endl;
+//
+//}
