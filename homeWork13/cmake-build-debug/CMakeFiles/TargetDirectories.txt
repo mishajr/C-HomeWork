@@ -1,3 +1,0 @@
-C:/Users/РОН/CLionProjects/homeWork13/cmake-build-debug/CMakeFiles/homeWork13.dir
-C:/Users/РОН/CLionProjects/homeWork13/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/РОН/CLionProjects/homeWork13/cmake-build-debug/CMakeFiles/rebuild_cache.dir
