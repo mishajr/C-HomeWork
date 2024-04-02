@@ -1,0 +1,3 @@
+C:/Users/РОН/CLionProjects/homework16/cmake-build-debug/CMakeFiles/homework16.dir
+C:/Users/РОН/CLionProjects/homework16/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/РОН/CLionProjects/homework16/cmake-build-debug/CMakeFiles/rebuild_cache.dir
