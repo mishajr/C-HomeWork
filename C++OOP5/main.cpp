@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 
 using namespace std;
 
@@ -61,6 +62,14 @@ public:
         return data[index];
     }
 
+    const T& GetAt(int index) const {
+        if (index < 0 || index >= size) {
+            cerr << "Index out of range" << endl;
+            exit(1);
+        }
+        return data[index];
+    }
+
     void SetAt(int index, const T& value) {
         if (index < 0 || index >= size) {
             cerr << "Index out of range" << endl;
@@ -77,6 +86,10 @@ public:
     }
 
     T& operator[](int index) {
+        return GetAt(index);
+    }
+
+    const T& operator[](int index) const {
         return GetAt(index);
     }
 
@@ -143,7 +156,7 @@ T FindMax(const Array<T>& arr) {
     }
     T maxVal = arr[0];
     for (int i = 1; i < arr.GetSize(); ++i) {
-        if (maxVal < arr[i]) {
+        if (arr[i] > maxVal) {
             maxVal = arr[i];
         }
     }
@@ -192,7 +205,7 @@ int BinarySearch(const Array<T>& arr, const T& value) {
             right = mid - 1;
         }
     }
-    return -1; // Якщо елемент не знайдено
+    return -1;
 }
 
 template <typename T>
@@ -200,7 +213,7 @@ void ReplaceElement(Array<T>& arr, const T& oldValue, const T& newValue) {
     for (int i = 0; i < arr.GetSize(); ++i) {
         if (arr[i] == oldValue) {
             arr[i] = newValue;
-            return; // Зупинка після першого входження oldValue
+            return;
         }
     }
     cerr << "Element not found" << endl;
@@ -244,5 +257,5 @@ int main() {
     }
     cout << endl;
 
-    return 0;
+
 }
