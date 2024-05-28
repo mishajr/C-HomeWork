@@ -1,0 +1,3 @@
+C:/Users/РОН/CLionProjects/C++OOP17/cmake-build-debug/CMakeFiles/C__OOP17.dir
+C:/Users/РОН/CLionProjects/C++OOP17/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/РОН/CLionProjects/C++OOP17/cmake-build-debug/CMakeFiles/rebuild_cache.dir
