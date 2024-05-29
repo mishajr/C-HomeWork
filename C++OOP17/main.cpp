@@ -41,7 +41,7 @@ void displayAllCars(const vector<Car>& cars) {
 
 
 void removeCar(vector<Car>& cars, const string& name) {
-    vector<Car>::iterator it = cars.begin(); // Create the iterator separately
+    vector<Car>::iterator it = cars.begin();
     while (it != cars.end()) {
         if (it->name == name) {
             it = cars.erase(it);
