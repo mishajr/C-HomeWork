@@ -1,3 +1,6 @@
 frame misha 98
 grade Dima 34
 garage Illa 56
+s s 0
+s s 0
+s s 0
